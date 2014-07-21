@@ -4,15 +4,16 @@
 		padding:0;
 		color:#000;
 		background:#a7a09a;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	}
 	#wrap {
 		/* width:750px; */
 		margin:0 auto;
-		background:#99c;
+		background:#A6647E;
 	}
 	#header {
     	padding:5px 10px;
-		background:#ddd;
+		background:#EDCFCC;
 	}
 	h1 {
 	    margin:0;
@@ -36,12 +37,12 @@
 		float:left;
 		width:70%;
 		padding: 0px;
-		background:#9c9;
+		background:#D9A6AF;
       
 	}
-	h2, p, h3 {
-		padding-left: 10px;
-        padding-right: 10px;
+	h2, p, h3, h4 {
+		padding-left: 50px;
+        padding-right: 50px;
         padding-top: 10px;
         margin-top: 0px;
 	}
@@ -49,15 +50,27 @@
 		float:right;
 		width:30%;
 		padding:0px;
-		background:#99c;
+		background:#A6647E;
 	}
 	#footer {
 		clear:both;
 		padding:5px 10px;
-		background:#cc9;
+		background:#EDCFCC;
 	}
 	#footer p {
 		margin:0;
+		text-align: center
+    }
+
+    img{
+    	padding-left: 75px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 5px;
+        margin-top: 0px;
+    	border-radius: 20px; 
+    	height: 286px;
+    	width: 430px;
     }
 
 
@@ -71,4 +84,13 @@
 {
     color:red;
     font-style: italic;
+}
+
+.caption
+{
+	text-align: center;
+	font-style: italic;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 50px;
 }
