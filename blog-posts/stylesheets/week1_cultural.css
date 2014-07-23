@@ -4,7 +4,11 @@
 		padding:0;
 		color:#000;
 		background:#a7a09a;
-		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		/*font-family: 'Josefin Sans', sans-serif;*/
+		font-family: 'Muli', sans-serif;
+
+		
+		/*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
 	}
 	#wrap {
 		/* width:750px; */
@@ -19,7 +23,10 @@
 	h1 {
 	    margin:0;
         text-align: center;
-        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5em;
+        font-weight:700;
+        /*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
     }
 	#nav {
 		padding:20px 20px;
@@ -98,9 +105,48 @@
 #subheading
 {
 	text-align: center;
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	/*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
 }
 
 img{
 	padding-left: 200px;
 }
+
+h2
+{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300; 
+	font-size: 27px; 
+	/*font-family: 'Josefin Sans', sans-serif;*/
+
+
+}
+
+p
+{
+	font-size: 20px;
+	line-height: 130%;
+	font-weight: 300;
+	text-align: justify;
+}
+
+li a:hover
+{
+	color: #D9A6AF;
+	
+}
+
+ul
+{
+	list-style: none; 
+}
+
+li a
+{
+	text-decoration: none;
+	color: black;
+
+}
+
