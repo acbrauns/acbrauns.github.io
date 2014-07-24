@@ -17,7 +17,7 @@
 	}
 	#header {
     	padding-top: 50px;
-    	padding-bottom: 50px;
+    	padding-bottom: 20px;
 		background:#EDCFCC;
 	}
 	h1 {
@@ -33,14 +33,17 @@
 		background:#c99;
 	}
 	#nav ul {
-		margin:0;
-		padding:0;
+		margin:0 0;
+		/*font-family: 'Amatic SC', cursive;*/
+		font-size: 20px;
+		text-align: center;
 		list-style:none;
 	}
 	#nav li {
 		display:inline;
+		padding:0 20px 0 20px;
 		margin:0;
-		padding:0;
+		
 	}
 	#main {
 		float:left;
@@ -76,14 +79,13 @@
     }
 
     img{
-    	padding-left: 75px;
-        padding-right: 50px;
-        padding-top: 50px;
-        padding-bottom: 5px;
-        margin-top: 0px;
-    	border-radius: 20px; 
+    	text-align: center;
+    	display: block;
+    	margin: 30px auto 30px auto;
+    	border-radius: 20px;
     	height: 286px;
     	width: 430px;
+    	box-shadow: 5px 5px 20px #A6647E;
     }
 
 
@@ -110,9 +112,6 @@
 	/*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
 }
 
-img{
-	padding-left: 200px;
-}
 
 h2
 {
@@ -143,7 +142,7 @@ ul
 	list-style: none; 
 }
 
-li a
+a 
 {
 	text-decoration: none;
 	color: black;

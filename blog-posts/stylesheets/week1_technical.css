@@ -17,7 +17,7 @@
 	}
 	#header {
     	padding-top: 50px;
-    	padding-bottom: 50px;
+    	padding-bottom: 20px;
 		background:#EDCFCC;
 	}
 	h1 {
@@ -28,19 +28,23 @@
         font-weight:700;
         /*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
     }
+		
 	#nav {
 		padding:20px 20px;
 		background:#c99;
 	}
 	#nav ul {
-		margin:0;
-		padding:0;
+		margin:0 0;
+		/*font-family: 'Amatic SC', cursive;*/
+		font-size: 20px;
+		text-align: center;
 		list-style:none;
 	}
 	#nav li {
 		display:inline;
+		padding:0 20px 0 20px;
 		margin:0;
-		padding:0;
+		
 	}
 	#main {
 		float:left;
@@ -62,7 +66,8 @@
 		width:30%;
 		padding-top: 40px;
 		background:#A6647E;
-	}
+		}
+	
 	#footer {
 		clear:both;
 		padding:5px 10px;
@@ -110,9 +115,6 @@
 	/*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
 }
 
-img{
-	padding-left: 200px;
-}
 
 h2
 {
@@ -143,7 +145,7 @@ ul
 	list-style: none; 
 }
 
-li a
+a
 {
 	text-decoration: none;
 	color: black;
