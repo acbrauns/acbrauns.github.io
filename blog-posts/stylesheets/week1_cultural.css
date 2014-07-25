@@ -41,7 +41,7 @@
 	}
 	#nav li {
 		display:inline;
-		padding:0 20px 0 20px;
+		padding:0 20px;
 		margin:0;
 		
 	}
@@ -85,7 +85,7 @@
     	border-radius: 20px;
     	height: 286px;
     	width: 430px;
-    	box-shadow: 5px 5px 20px #A6647E;
+    	box-shadow: 0px 0px 25px #A6647E;
     }
 
 
@@ -149,3 +149,8 @@ a
 
 }
 
+
+.shadow
+{
+	box-shadow: 0px 0px 25px #A6647E; /* first two numbers are for offset. No offset so shadow on all sides.*/
+}
