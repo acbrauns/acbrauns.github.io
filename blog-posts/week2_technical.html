@@ -31,7 +31,7 @@
 
 		<p>Note that for the &quotCSS&quot code column within each figure, <u>any attributes  set to a value greater than 0 are underlined</u>. In addition, in each subsequent figure, <span style="color: #990000">the code that has been modified appears in red text.</span></p>
 	
-		<img src="images/week2_technical/slide1.jpg"Slide1>
+		<img src="images/week2_technical/Slide1.jpg">
 
 		<p>The figure above is our starting point. For each header, the top margin has been set to 20px; top margin area is represented by the orange stripes. Note that this is solely for demonstration purposes, as padding and margin cannot be set to specific colors. Rather, they are attributes to help with spacing, so they take on the background color of the parent container. (Thus I was able to represent the margin areas for each header by setting the background color of the div to orange.)</p>
 
@@ -40,7 +40,7 @@
 		<p>Observation: Since each white box represents an individual heading element, you can see that have a padding greater than 0 will add to the size of the element.</p>
 
 		<p>Question: What happens if the content of Heading#1 is removed? Let&#39s find out:</p>
-		<img src="images/week2_technical/slide2.jpg">
+		<img src="images/week2_technical/Slide2.jpg">
 
 		<p>Although the text of Heading#1 has been removed, there is still an h1 tag in the HTML.</p>
 
@@ -49,7 +49,7 @@
 		<p>Question: What if we reduce the bottom padding to 2px?</p>
 
 
-		<img src="images/week2_technical/slide3.jpg">
+		<img src="images/week2_technical/Slide3.jpg">
 
 		<p>The amount of white space below each piece of blue text got smaller because the bottom padding was reduced. You can see that the padding-bottom for Heading#1 is still there, but smaller, as represented by skinny white line.</p>
 
@@ -58,7 +58,7 @@
 		<p>Question: What would happen if I get rid of that skinny white line at the top by setting the padding-bottom attribute to 0? Will the two top margins (the top two orange stripes) converge and make a super-margin of 40px?</p>
 
 
-		<img src="images/week2_technical/slide4.jpg">
+		<img src="images/week2_technical/Slide4.jpg">
 
 		<p>Observation: The two top margins (for Heading#1 and Heading#2) did NOT converge into super margin! Why? Because the purpose of the margin is to create spacing between elements. Even though Heading#1 is technically there, it contains no text and no padding, so that element now takes up no space.</p>
 
@@ -69,26 +69,26 @@
 		<p>This can be confusing, because padding does seem to operate by the additive equation. Remember, increasing the padding increases the space between the text and the edge of the element, thus affecting the size of that individual element.</p>
 
 		<p>Question: If we add a border to each heading, will the margin-top for Heading#1 re-appear?</p>
-		<img src="images/week2_technical/slide5.jpg">
+		<img src="images/week2_technical/Slide5.jpg">
 
 		<p>Observation: The margin-top attribute for Heading#1 reappeared! The border is the only one of these three attributes that you can set to a color. The border is meant to be a visible, space-consuming part of an element, as opposed to just be an attribute that affects spacing within and between elements. Therefore, even though Heading#1 still has no text content, it takes up some space within the div because its purple border takes space within the div. This is why its margin-top attribute re-appeared.</p>
 
 		<p>Question: What happens when we increase the width of the borders, and REMOVE the  margin-top attribute from the CSS?</p>
 
-		<img src="images/week2_technical/slide6.jpg">
+		<img src="images/week2_technical/Slide6.jpg">
 
 		<p>Observation: Increasing the width of the borders increasing the size of the div, just as we observed with the padding. But why is there still orange space between those borders? Didn&#39t we get rid of the margin-top attribute?</p>
 
 		<p>Question: What happens if you explicitly set the margin-top attribute to 0 rather than just removing that attribute altogether?</p>
 		
-		<img src="images/week2_technical/slide7.jpg">
+		<img src="images/week2_technical/Slide7.jpg">
 
 
 		<p>Observation: Aha! Now the orange has gone away altogether! This is because each heading element still has default settings. Thus there will always be somewhat of a top margin unless we specify otherwise. By setting the margin-top to 0, we override that default setting and make the margin disappear.</p>
 
 		<p>Question: What if we just set border, padding, and margin to 0?</p>
 
-		<img src="images/week2_technical/slide8.jpg">
+		<img src="images/week2_technical/Slide8.jpg">
 
 		<p>Observation: This is now as compact as the headings can possibly be within the div.</p>
 
