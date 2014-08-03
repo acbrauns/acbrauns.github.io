@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: 'daniel';
-    src: url('font/daniel.ttf') format('truetype'); 
+    src: url('font/Entypo-webfont.ttf') format('truetype'); 
+    src: url('font/Entypo-webfont.eot') format('embedded-opentype'); 
 
 }
 
