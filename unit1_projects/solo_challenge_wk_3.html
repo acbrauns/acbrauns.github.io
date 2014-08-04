@@ -165,16 +165,19 @@ document.getElementById("reset").onclick = function(){window.location.reload()};
 
 function eat(contestant, idCals, idItems)
 {
-    if (contestant.fav_food.items > 1)
+    if (contestant.fav_food.items > 0)
     {
        contestant.fav_food.items -= 1;   
         contestant.cals_consumed += contestant.fav_food.calories;   
 
         document.getElementById(idCals.toString()).innerHTML = contestant.cals_consumed;
         document.getElementById(idItems.toString()).innerHTML = contestant.fav_food.items;
+
+        if(contestant.fav_food.items == 0)
+            celebrate(contestant);
     }
-    else
-        celebrate(contestant);
+    
+        
     
 }
     
