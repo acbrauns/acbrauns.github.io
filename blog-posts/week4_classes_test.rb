@@ -76,14 +76,3 @@ puts "Calories eaten by Stewie: #{stewie.instance_variable_get(:@cals_eaten)}"
 puts "Calories eaten by Cartman: #{cartman.instance_variable_get(:@cals_eaten)}"
 puts "Current people at the table: #{Person.people}"
 puts "Current items on the menu: #{Food.menu_items}"
-
-
-
-
-#IT MIGHT BE A LITTLE SCARY TO TRY TO UNDERSTAND ALL THE NEW CONCEPTS RELATED TO CLASSES, CLASS VARIABLES, INSTANCE VARIABLES, 
-#AND HOW DIFFERENT OBJECTS INTERACT WITH ONE ANOTHER. BUT IF YOU TAKE ONLY ONE THING FROM THIS BLOG ENTRY, REMEMBER ONLY THIS: 
-#YOU CAN'T HAVE PIE WITHOUT COOLHHWHIP!
-
-#classes are like nouns, and methods are like verbs. In a lot of cases, at least. 
-
-#Somehow my examples always relate to food and TV--my two true passions.
