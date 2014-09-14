@@ -204,11 +204,53 @@ height: inherit;
 
 
 
-#computer {background: url("../images/computer_gray_resized.png") no-repeat center;}
-#people {background: url("../images/people_gray_resized.png") no-repeat center;}
-#heartplus{background: url("../images/heartplus_gray_resized.png") no-repeat center;}
-#questionmark{background: url("../images/questionmark_gray_resized.png") no-repeat center;}
-#computer:hover{background: url("../images/computer_green_resized.png") no-repeat center;}
-#people:hover{background: url("../images/people_green_resized.png") no-repeat center;}
-#heartplus:hover{background: url("../images/heartplus_green_resized.png") no-repeat center;}
-#questionmark:hover{background: url("../images/questionmark_green_resized.png") no-repeat center;}
+#computer {
+	background: url("../images/computer_gray_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+#people {
+	background: url("../images/people_gray_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;	
+}
+
+#heartplus{
+	background: url("../images/heartplus_gray_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+#questionmark{
+	background: url("../images/questionmark_gray_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+#computer:hover{
+	background: url("../images/computer_green_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+
+#people:hover{
+	background: url("../images/people_green_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+#heartplus:hover{
+	background: url("../images/heartplus_green_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
+#questionmark:hover{
+	background: url("../images/questionmark_green_resized.png") no-repeat center;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+}
