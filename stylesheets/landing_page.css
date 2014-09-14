@@ -117,8 +117,7 @@ height: 35px;
 
 .main 
 {
-/*	padding-top: 90px;
-	padding-bottom: 100px;*/
+	margin-top: 10px;
 	min-height: 100%;
 	overflow: auto;
 	line-height: 1.5;
@@ -141,18 +140,11 @@ ol, ul, li, a
 }
 
 .main p{
-	/*font-size: 15px;*/
 	font-weight: bold;
 }
 
 
 
-.content{
-	height: inherit;
-	float: left;
-	width: 70%;
-}
-	
 
 
 .computer, .people, .heartplus, .questionmark{
@@ -189,7 +181,11 @@ height: inherit;
 	height: 120px;
 }
 
-
+.main table{
+	/*position: relative;*/
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
 
 /*#computer {
 	background: url("../images/computer_gray_resized.png") no-repeat center;
