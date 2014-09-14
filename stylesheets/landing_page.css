@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'agency';
+    src: url('fonts/AGENCYB.ttf') format('truetype');  
+
+}
+
+@font-face {
+    font-family: 'sego';
+    src: url('fonts/segoeuil.ttf') format('truetype');  
+}
+
 html,
 body {
 	margin:0;
@@ -10,16 +21,7 @@ body {
 	text-align: justify;
 }
 
-@font-face {
-    font-family: 'agency';
-    src: url('fonts/AGENCYB.ttf') format('truetype');  
 
-}
-
-@font-face {
-    font-family: 'sego';
-    src: url('fonts/segoeuil.ttf') format('truetype');  
-}
 #wrapper {
 	min-height:100%;
 	position:relative;
@@ -67,7 +69,7 @@ height: 50px;
 	font-size: 130px;
 	padding: 0;
 	margin: 0;
-	font-family: 'sego';
+	font-family: sego;
 	color: #B0DB51;
 	padding-bottom: 3px;
 }
@@ -83,7 +85,7 @@ height: 50px;
 	top: 15px;
 }
 
-#header_text > p 
+#header_text  p 
 {
 	padding: 0;
 	margin: 0;
