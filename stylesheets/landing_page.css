@@ -1,0 +1,212 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background-color: #F2F2F2;
+	font-family: sego;
+	color: #FFFFFF;
+	line-height: 0.9;
+	text-align: justify;
+}
+
+@font-face {
+    font-family: 'agency';
+    src: url('fonts/AGENCYB.ttf') format('truetype');  
+
+}
+
+@font-face {
+    font-family: 'sego';
+    src: url('fonts/segoeuil.ttf') format('truetype');  
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.centered_content
+{
+	 width: 75%;
+     margin: 0px auto;
+     min-height: 100%;
+     position: relative;
+}
+
+.width100{
+	width: 100%;
+}
+
+.top_stripe{
+	background-color: #81B66E;
+	height: 200px;
+	}
+
+header table{
+	padding-top: 15px;
+}
+
+
+.gray_strip {
+ background-color: #595959;
+height: 50px;
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	text-align: center;
+
+	} 
+
+
+
+ .bracket
+{
+	font-size: 130px;
+	padding: 0;
+	margin: 0;
+	font-family: 'sego';
+	color: #B0DB51;
+	padding-bottom: 3px;
+}
+
+#header_text
+{
+	text-align: center;
+	font-family: agency;
+	padding: 0px;
+	margin-top: 23px;
+	height: 100%;
+	position: relative;
+	top: 15px;
+}
+
+#header_text > p 
+{
+	padding: 0;
+	margin: 0;
+}
+#header_subtitle
+{
+	position: relative;
+	top: 50px;
+	left: 20px;
+	font-family: sego;
+	font-size: 25px;
+
+}
+
+.getwiththe_text
+{
+	color: #FFFFFF;
+	font-size: 40px;
+
+}
+
+
+.program_text
+{
+	color: #FFFFFF;
+	font-size: 55px;
+}
+
+
+
+.main 
+{
+	padding-top: 90px;
+	padding-bottom: 100px;
+	min-height: 100%;
+	overflow: auto;
+	line-height: 1.5;
+}
+
+
+ol, ul, li, a 
+{
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+
+.main p, h1, h2, h3, h4, h5, h6 {
+	color: #595959;
+}
+
+.main p{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+.content{
+	height: inherit;
+	float: left;
+	width: 70%;
+}
+
+.sidebar{
+	height: inherit;
+	float: right;
+	width: 25%;
+	padding-top: 60px;
+}	
+
+img{
+	height: 35px;
+}
+
+.sidebar p{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+
+.computer, .people, .heartplus, .questionmark{
+	text-align: center;
+}
+
+.main p, .main a {
+	color: #595959;
+	font-size: 25px;
+}
+
+.main td   {
+	text-align: center;
+}
+
+.icon_titles p{
+	font-size: 20px;
+}
+.linkspace td{
+	height: 175px; 
+}
+
+.icon_labels a:hover{
+	color: #81B66E;
+}
+
+.linkspace  a{
+display: block;
+width: inherit;
+height: inherit;
+}
+
+
+
+#computer {background: url("../images/computer_gray_resized.png") no-repeat center;}
+#people {background: url("../images/people_gray_resized.png") no-repeat center;}
+#heartplus{background: url("../images/heartplus_gray_resized.png") no-repeat center;}
+#questionmark{background: url("../images/questionmark_gray_resized.png") no-repeat center;}
+#computer:hover{background: url("../images/computer_green_resized.png") no-repeat center;}
+#people:hover{background: url("../images/people_green_resized.png") no-repeat center;}
+#heartplus:hover{background: url("../images/heartplus_green_resized.png") no-repeat center;}
+#questionmark:hover{background: url("../images/questionmark_green_resized.png") no-repeat center;}
