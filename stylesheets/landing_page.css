@@ -114,6 +114,15 @@ height: 35px;
 }
 
 
+ol, ul, li, a 
+{
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
 
 .main 
 {
@@ -125,18 +134,6 @@ height: 35px;
 	text-align: center;
 }
 
-
-ol, ul, li, a 
-{
-	text-decoration: none;
-	list-style: none;
-	font-size: 20px;
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-}
-
-
 .main p, h1, h2, h3, h4, h5, h6 {
 	color: #595959;
 }
@@ -146,82 +143,33 @@ ol, ul, li, a
 }
 
 
-
-.computer, .people, .heartplus, .questionmark{
-	text-align: center;
-}
-
 .main p, .main a {
 	color: #595959;
 	font-size: 18px;
 }
 
-.main td   {
-	text-align: center;
+
+.main table{
+	padding-top: 40px;
+}
+
+
+.icon_links img{
+	height: 120px;
+}
+.icon_links td{
+	height: 175px; 
+	vertical-align: middle;
 }
 
 .icon_titles p{
 	font-size: 15px;
-}
-.linkspace td{
-	height: 175px; 
-	vertical-align: middle;
 }
 
 .icon_labels a:hover{
 	color: #81B66E;
 }
 
-.linkspace  a{
-display: block;
-width: inherit;
-height: inherit;
-}
-
-.linkspace img{
-	height: 120px;
-}
-
-.main table{
-	padding-top: 30px;
-}
 
 
 
-
-}
-/*#computer {
-	background: url("../images/computer_gray_resized.png") no-repeat center;
-	
-}*/
-/*#people {
-	background: url("../images/people_gray_resized.png") no-repeat center;
-
-}*/
-
-
-/*#heartplus{
-	background: url("../images/heartplus_gray_resized.png") no-repeat center;
-
-}
-#questionmark{
-	background: url("../images/questionmark_gray_resized.png") no-repeat center;
-
-}*/
-/*#computer:hover{
-	background: url("../images/computer_green_resized.png") no-repeat center;
-
-}
-
-#people:hover{
-	background: url("../images/people_green_resized.png") no-repeat center;
-
-}
-#heartplus:hover{
-	background: url("../images/heartplus_green_resized.png") no-repeat center;
-
-}
-#questionmark:hover{
-	background: url("../images/questionmark_green_resized.png") no-repeat center;
-
-}*/
