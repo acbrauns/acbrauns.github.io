@@ -1,13 +1,13 @@
-h2{
+.content h3{
 	padding-top: 2em;
 }
 
-p{
-	padding-left: 2em;
-	padding-right: 2em;
+.content p{
+	margin-left: 2em;
+	margin-right: 2em;
 }
 
-h1+p{  /* this selector targets the first p element after an h1, but not other p elements after it*/
-	padding-left: 0;
-	padding-right: 0;
+.content h2+p {   /*this selector targets the first p element after an h1, but not other p elements after it*/
+	margin-left: 0;
+	margin-right: 0;
 }

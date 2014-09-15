@@ -125,7 +125,7 @@ ol, ul, li, a
 {
 	text-decoration: none;
 	list-style: none;
-	font-size: 20px;
+	font-size: 15px;
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
@@ -137,8 +137,8 @@ ol, ul, li, a
 	color: #595959;
 }
 
-.main p, .main pre{
-	font-size: 20px;
+.main p, .main pre, .content a{
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -152,6 +152,9 @@ ol, ul, li, a
 	width: 70%;
 }
 
+.listfont a{
+	font-size: 18px;
+}
 
 .sidebar{
 	height: inherit;
@@ -161,11 +164,11 @@ ol, ul, li, a
 }	
 
 .sidebar img{
-	height: 35px;
+	height: 25px;
 }
 
 .sidebar a{
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: bold;
 
 }
