@@ -12,13 +12,13 @@ body {
 
 @font-face {
     font-family: 'agency';
-    src: url('fonts/AGENCYB.TTF') format('truetype');  
+    src: url('fonts/AGENCYB.TTF') format('truetype');
 
 }
 
 @font-face {
     font-family: 'sego';
-    src: url('fonts/segoeuil.ttf') format('truetype');  
+    src: url('fonts/segoeuil.ttf') format('truetype');
 }
 #wrapper {
 	min-height:100%;
@@ -57,7 +57,7 @@ height: 35px;
 	text-align: center;
 	font-size: 12px;
 
-	} 
+	}
 
 
 
@@ -80,7 +80,7 @@ height: 35px;
 	top: 12px;
 }
 
-#header_text > p 
+#header_text > p
 {
 	padding: 0;
 	margin: 0;
@@ -111,7 +111,7 @@ height: 35px;
 
 
 
-.main 
+.main
 {
 	padding-top: 50px;
 	padding-bottom: 100px;
@@ -121,7 +121,7 @@ height: 35px;
 }
 
 
-ol, ul, li, a 
+ol, ul, li, a
 {
 	text-decoration: none;
 	list-style: none;
@@ -161,7 +161,7 @@ ol, ul, li, a
 	float: right;
 	width: 25%;
 	padding-top: 60px;
-}	
+}
 
 .sidebar img{
 	height: 25px;
