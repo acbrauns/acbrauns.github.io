@@ -4,7 +4,7 @@
 		<meta charset = "utf-8">
 		<link rel="stylesheet" type="text/css" href="../stylesheets/general_template.css">
 		<link rel="stylesheet" type="text/css" href="../stylesheets/week5_technical.css">
-		<title>Get With the Programming | Home</title>
+		<title>Get With the Program | Technical Blogs</title>
 	</head>
 
 	<body>
@@ -20,18 +20,18 @@
 	                        <td><p id="header_subtitle">TOUGHENING UP ON CODING AND LIFE</p></td>
 	                    </tr>
                     </table>
-				</header>	
+				</header>
 		</div>
 		<div class="gray_strip width100"></div>
 
 		<div class="footer gray_strip width100"><p>Copyright &copy 2014. All Rights Reserved.</p></div>
 
-		
+
 
 		<div class = "main centered_content">
 
 			<div class="content">
-				
+
 				<h2>Classes, Objects, and Methods</h2>
 
 		<p>	For demonstrating the concepts of classes, objects, and instances, I have chosen to stick with a recurring theme in my Dev Bootcamp assignments: TV characters and food. This program that I have created allows the user to create Person objects and Food objects. Users can call the eat(food) method to make a Person eat a certain food. This method will keep track of how many calories that Person has consumed. In addition, the Food class tracks the number of units of a particular food item that a Person has eaten.</p>
@@ -43,7 +43,7 @@
 		<p>The code above shows a sample of what methods the user can call. In lines 46-48, we create 3 new Person objects: ron, stewie, and cartman. We then create a few food objects. The first parameter is the string name of the food object; the second is an integer representing the number of calories that we choose to assign to that particular food object.</p>
 
 		<p>We then call the eat method on any of our Person objects that we have created, passing in any of the food objects we have created. For example, whenever we call ron.eat(bacon), this adds 350 calories to ron's cals_eaten instance variable because we assigned 350 as the amount of calories for the bacon object. Thus if we call ron.eat(bacon) twice, his cals_eaten instance variable will be at 700.</p>
-		
+
 		<p>Let&#39s take a look at the code that actually allows the user to create Person and Food objects:</p>
 
 		<img src="../images/week5_technical/Slide2.jpg">
@@ -53,7 +53,7 @@
 		<p> The @@people variable is a class variable, not an instance variable. In line 2, we see that it is created as an array. In line 7, the @name variable (for example, &quotRon&quot), is added to the people array. This means that for each Person object we create, that Person&#39s name will be added to the array. This way, we can see how many Person objects we have created by calling Person.people, which simple returns the class variable people (lines 16-18).</p>
 
 		<p>To understand the eat method in lines 10-14, we have to take a look at the code for the Food class:</p>
-	
+
 		<img src="../images/week5_technical/Slide3.jpg">
 
 		<p>When we call eat(food) from the Person class (line 10), we are calling that method on a Person object, but passing in a Food object (such as bacon, pie, friedchicken) as a parameter. In line 11, calling food.eaten applies to a particular food object. We see in line 34 the eaten method from the Food class. This method simply increases the units_eaten of that food by 1. This means that whether we call ron.eats(bacon), stewie.eats(bacon), or cartman.eats(bacon), the bacon object&#39s instance variable @units_eaten will always increase by 1. This way, we can see how much bacon has been eaten by all of our Person objects, not just by one at a time.</p>
@@ -72,7 +72,7 @@
 
 			</div>
 
-		
+
 
 			<table class="sidebar" >
                	<tr>
@@ -91,11 +91,11 @@
                     <td class="questionmark"><img src="../images/questionmark_gray_resized.png"></td>
                     <td><p><a href="../about.html"><b>About</b></a></p></td>
                 </tr>
-	     
+
             </table>
-			
+
 		</div>
-				
+
 	</div>
 
 
